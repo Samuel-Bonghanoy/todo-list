@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useList } from "./contexts/listContext";
+import { useList } from "./ListContext";
 import { FiPlusCircle } from "react-icons/fi";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";

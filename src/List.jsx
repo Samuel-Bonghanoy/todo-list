@@ -1,6 +1,6 @@
 import Input from "./Input";
 import Task from "./Task";
-import { useList } from "./contexts/listContext";
+import { useList } from "./ListContext";
 
 function List() {
   const { list, setList } = useList();
