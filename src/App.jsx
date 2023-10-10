@@ -2,7 +2,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import List from "./List";
 import AppLayout from "./AppLayout";
 import { ListProvider } from "./ListContext";
-import Item from "./item";
+import Item from "./Item";
 
 const router = createBrowserRouter([
   {
