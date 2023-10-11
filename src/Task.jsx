@@ -22,8 +22,8 @@ function Task({ entry, setTaskList, identifier }) {
         />
       </button>
       <Link to={`/task/${identifier}`}>
-        <div className="flex flex-col">
-          <p className="ml-2 font-semibold text-[1.1rem]">{entry}</p>
+        <div className="flex flex-col w-[29.9rem]">
+          <p className="ml-2 font-semibold text-[1.1rem] ">{entry}</p>
           <p className="ml-2 text-[0.75rem] text-green-800 font-thin">
             due Monday
           </p>
